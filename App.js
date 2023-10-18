@@ -1,6 +1,0 @@
-const root = ReactDOM.createRoot(document.getElementById("root"))
-const heading = React.createElement("h1", {id: "heading"}, "Hello world from React")
-const heading2 = React.createElement("h1", {id: "heading2"}, "Hello world, Heading 2")
-const child = React.createElement("div", { id: "child"}, [heading, heading2])
-const parent = React.createElement("div", { id: "parent"}, [child])
-root.render(parent)
